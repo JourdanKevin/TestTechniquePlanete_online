@@ -1,0 +1,1 @@
+SELECT * FROM employe LEFT JOIN tache on employe.id_tache = tache.id

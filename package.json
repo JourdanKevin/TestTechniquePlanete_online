@@ -1,0 +1,22 @@
+{
+  "name": "planeteonline_testtech",
+  "version": "1.0.0",
+  "description": "test technique",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon ./server.js localhost 3080"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
